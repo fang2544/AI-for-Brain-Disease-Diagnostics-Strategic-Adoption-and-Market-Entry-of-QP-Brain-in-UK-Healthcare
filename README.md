@@ -28,32 +28,7 @@ Variables scaled using Min–Max normalisation (Go et al., 2020).
 
 Ensures comparability among indicators with different units or directions (↑ good / ↓ good).
 
-𝑥
-′
-=
-𝑥
-−
-min
-⁡
-(
-𝑥
-)
-max
-⁡
-(
-𝑥
-)
-−
-min
-⁡
-(
-𝑥
-)
-x
-′
-=
-max(x)−min(x)
-x−min(x)
+x′=max(x)−min(x)x−min(x)​
 	​
 
 2. Composite Scoring
@@ -62,39 +37,8 @@ Combines multiple indicators (MRI volume, waiting time, radiology staffing, and 
 
 Equal weighting applied in the baseline model.
 
-Score
-𝑖
-=
-1
-𝑛
-∑
-𝑗
-=
-1
-𝑛
-𝑥
-𝑖
-𝑗
-′
-Score
-i
+Scorei​=n1​j=1∑n​xij′​
 	​
-
-=
-n
-1
-	​
-
-j=1
-∑
-n
-	​
-
-x
-ij
-′
-	​
-
 
 Higher scores = greater diagnostic burden and stronger AI adoption potential.
 
